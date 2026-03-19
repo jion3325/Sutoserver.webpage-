@@ -3,6 +3,8 @@ layout: default
 title: ホーム
 ---
 
+<img src="/assets/images/logo.png" style="width:200px;">
+
 # 🎮 すとサーバー
 
 楽しいマイクラサーバーへようこそ！
@@ -15,4 +17,3 @@ node1.swdhst.com:2074
 - イベントあり
 - 初心者歓迎
 
-<img src="/assets/images/logo.png" style="width:200px;">
