@@ -5,11 +5,36 @@ title: タグ
 
 # 🏷️ タグ一覧
 
-{% for tag in site.tags %}
-  <h2>{{ tag[0] }}</h2>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+## 🔧 メンテナンス
+<ul>
+{% for post in site.tags["メンテナンス"] %}
+  <li>
+    <span class="tag tag-maintenance">メンテナンス</span>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
+</ul>
+
+---
+
+## 📢 お知らせ
+<ul>
+{% for post in site.tags["お知らせ"] %}
+  <li>
+    <span class="tag tag-news">お知らせ</span>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+---
+
+## 📦 その他
+<ul>
+{% for post in site.tags["その他"] %}
+  <li>
+    <span class="tag tag-other">その他</span>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
