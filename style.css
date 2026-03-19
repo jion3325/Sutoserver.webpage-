@@ -13,3 +13,24 @@ h1 {
   border-radius: 8px;
   text-decoration: none;
 }
+.tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: white;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.tag-maintenance {
+  background: #e74c3c; /* 赤 */
+}
+
+.tag-news {
+  background: #3498db; /* 青 */
+}
+
+.tag-other {
+  background: #f1c40f; /* 黄 */
+  color: black;
+}
