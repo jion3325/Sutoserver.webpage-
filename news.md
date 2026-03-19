@@ -15,6 +15,6 @@ title: ニュース
       <span class="tag tag-other">その他</span>
     {% endif %}
 
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </h2>
 {% endfor %}
