@@ -44,3 +44,6 @@ h1 {
 .site-title {
   display: none;
 }
+body {
+  font-family: 'DotGothic16', sans-serif;
+}
