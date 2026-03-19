@@ -1,0 +1,10 @@
+title: すとサーバー
+description: マイクラサーバー公式サイト
+
+theme: minima
+
+header_pages:
+  - index.md
+  - staff.md
+  - news.md
+  - tags.md
