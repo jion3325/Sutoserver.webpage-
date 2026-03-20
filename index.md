@@ -5,7 +5,7 @@ title: ホーム
 
 # 🎮 すとサーバー
 
-assets/images/a3f0b4e5f417ab8d.png
+<img src="assets/images/a3f0b4e5f417ab8d.png" style="width:50px;">
 サーバー紹介
 
 日本人運営による Minecraft マルチサーバーです。
