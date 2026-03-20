@@ -5,7 +5,7 @@ title: ホーム
 
 # 🎮 すとサーバー
 
-<img src="assets/images/sutoserver .PNG" style="width:400px;">
+<img src="assets/images/sutoserver .PNG" style="width:900px;">
 
 サーバー紹介
 
