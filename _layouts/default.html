@@ -7,29 +7,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 </head>
 <body>
-
+ 
 <header style="display:flex; align-items:center; padding:10px 20px; border-bottom:1px solid #ccc;">
 
-  <!-- ロゴ -->
+  <!-- ロゴ（左） -->
   <a href="/">
-  <img src="assets/images/dot2026_0215_0724_14.png" style="width:50px;">
-</a>
-  <!-- メニュー -->
-  <nav>
-  <a href="{{ '/' | relative_url }}">ホーム</a>
-  <a href="{{ '/staff' | relative_url }}">運営募集</a>
-  <a href="{{ '/news' | relative_url }}">ニュース</a>
-  <a href="{{ '/tags' | relative_url }}">タグ</a>
+    <img src="/assets/images/logo.png" style="height:50px;">
+  </a>
 
-  <!-- サーバー一覧 -->
-  <div class="dropdown">
-    <a href="#">サーバー</a>
-    <div class="dropdown-content">
-      <a href="{{ '/Koka' | relative_url }}">国家鯖</a>
-      <a href="{{ '/Ana-ki-' | relative_url }}">アナーキー鯖</a>
+  <!-- メニュー（右） -->
+  <nav style="margin-left:auto;">
+    <a href="{{ '/' | relative_url }}">ホーム</a>
+    <a href="{{ '/staff' | relative_url }}">運営募集</a>
+    <a href="{{ '/news' | relative_url }}">ニュース</a>
+    <a href="{{ '/tags' | relative_url }}">タグ</a>
+
+    <div class="dropdown">
+      <a href="#">サーバー</a>
+      <div class="dropdown-content">
+        <a href="{{ '/Koka' | relative_url }}">国家鯖</a>
+        <a href="{{ '/anarchy' | relative_url }}">アナーキー</a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+
 </header>
 
 <main style="padding:20px;">
