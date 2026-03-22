@@ -47,3 +47,36 @@ h1 {
 body {
   font-family: 'Noto Sans JP', sans-serif;
 }
+/* ドロップダウン全体 */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* 中身 */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 150px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  border-radius: 6px;
+}
+
+/* 中のリンク */
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* ホバーで表示 */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ホバー時 */
+.dropdown-content a:hover {
+  background: #eee;
+}
