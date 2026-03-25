@@ -6,7 +6,7 @@ title: ホーム
 <div class="pc-only">
   <h1>🎮 すとサーバー</h1>
 
-<img src="assets/images/sutoserver .PNG" style="width:200px;">
+<img src="assets/images/sutoserver .PNG" style="width:900px;">
   <h2>サーバー紹介</h2>
 
 <p>日本人運営による Minecraft マルチサーバーです。</p>
