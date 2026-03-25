@@ -154,3 +154,7 @@ nav a {
     display: block;
   }
 }
+img {
+  display: block;
+  margin-bottom: 10px;
+}
