@@ -139,3 +139,18 @@ nav a {
     display: block;
   }
 }
+/* デフォルト（PC） */
+.mobile-only {
+  display: none;
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .pc-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+}
