@@ -80,6 +80,7 @@ body {
 .dropdown-content a:hover {
   background: #eee;
 }
+/* PC用（デフォルト） */
 .header {
   display: flex;
   align-items: center;
@@ -90,7 +91,6 @@ body {
   height: 50px;
 }
 
-/* ナビ（PC） */
 nav {
   margin-left: auto;
 }
@@ -99,7 +99,7 @@ nav a {
   margin-left: 15px;
 }
 
-/* ハンバーガー */
+/* ハンバーガーはPCでは隠す */
 .menu-toggle {
   display: none;
   font-size: 30px;
@@ -107,9 +107,12 @@ nav a {
   cursor: pointer;
 }
 
-/* スマホ対応 */
+---
+
+/* 📱 スマホ用 */
 @media (max-width: 768px) {
 
+  /* ナビ隠す */
   nav {
     display: none;
     position: absolute;
@@ -120,16 +123,19 @@ nav a {
     flex-direction: column;
   }
 
+  /* メニュー開いたとき */
+  nav.active {
+    display: flex;
+  }
+
+  /* リンク縦並び */
   nav a {
     display: block;
     padding: 10px;
     margin: 0;
   }
 
-  nav.active {
-    display: flex;
-  }
-
+  /* ☰表示 */
   .menu-toggle {
     display: block;
   }
