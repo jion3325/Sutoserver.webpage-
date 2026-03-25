@@ -84,10 +84,10 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  height: 70px;
+  padding: 0 20px;
   border-bottom: 1px solid #ccc;
 }
-
 .logo {
   height: 50px;
   width: auto;
