@@ -3,6 +3,14 @@ layout: default
 title: ホーム
 ---
 
+<div class="pc-only">
+  <h1>PC用デザイン</h1>
+</div>
+
+<div class="mobile-only">
+  <h1>スマホ用デザイン</h1>
+</div>
+
 # 🎮 すとサーバー
 
 <img src="assets/images/sutoserver .PNG" style="width:200px;">
