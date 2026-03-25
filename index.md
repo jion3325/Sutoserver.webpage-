@@ -4,7 +4,7 @@ title: ホーム
 ---
 
 <div class="pc-only">
-  # 🎮 すとサーバー
+  <h1>🎮 すとサーバー</h1>
 
 <img src="assets/images/sutoserver .PNG" style="width:900px;">
 
@@ -78,7 +78,7 @@ sutoserver.xgames.jp
 </div>
 
 <div class="mobile-only">
-  # 🎮 すとサーバー
+  <h1>🎮 すとサーバー</h1>
 
 <img src="assets/images/sutoserver .PNG" style="width:200px;">
 
