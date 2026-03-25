@@ -80,3 +80,57 @@ body {
 .dropdown-content a:hover {
   background: #eee;
 }
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+/* ナビ（PC） */
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  margin-left: 15px;
+}
+
+/* ハンバーガー */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+    margin: 0;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
