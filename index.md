@@ -56,7 +56,7 @@ PvP・破壊・略奪すべて自由。
 <div class="mobile-only">
   <h1>🎮 すとサーバー</h1>
 
-<img src="assets/images/sutoserver .PNG" style="width:200px;">
+<img src="assets/images/sutoserver .PNG" style="width:300px;">
 
 <h2>サーバー紹介</h2>
 
