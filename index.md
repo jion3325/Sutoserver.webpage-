@@ -44,7 +44,7 @@ PvP・破壊・略奪すべて自由。
 </p>
 
 <h2>🌐 IP</h2>
-<p>sutoserver.xgames.jp</p>
+<p>sutoserver.net</p>
 
 <h2>✨ 特徴</h2>
 <ul>
@@ -95,7 +95,7 @@ PvP・破壊・略奪すべて自由。
 </p>
 
 <h2>🌐 IP</h2>
-<p>sutoserver.xgames.jp</p>
+<p>sutoserver.net</p>
 
 <h2>✨ 特徴</h2>
 <ul>
