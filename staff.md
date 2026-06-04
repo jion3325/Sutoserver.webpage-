@@ -15,6 +15,7 @@ title: 運営募集
 
 ### ⚙️ Developer（開発）
 プラグイン制作・技術担当
+現在、募集を停止しております。
 
 <a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAqBp6whUQjYxWkVDUTNCRjJFOU04SVVVTU00WjNGUi4u&route=shorturl" class="btn">応募する</a>
 
@@ -36,6 +37,7 @@ title: 運営募集
 
 ### 📱 SNS班
 広報・宣伝・SNS運用
+一番これが受かりやすいです
 
 <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAqBp6whUMVc1SFhURDBXU0lMTEpBN1FWOENDUTRYUy4u" class="btn">応募する</a>
 
